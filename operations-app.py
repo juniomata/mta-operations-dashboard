@@ -73,3 +73,6 @@ st.altair_chart(chart, use_container_width=True)
 # Download button for filtered data
 st.download_button("Download Filtered Data", data=filtered_data.to_csv(index=False), file_name="filtered_operations_data.csv")
 print(min_date, max_date)
+
+# Go to dataset
+st.link_button("Go to dataset", "https://data.ny.gov/Transportation/MTA-Statement-of-Operations-Beginning-2019/yg77-3tkj/about_data")
