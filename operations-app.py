@@ -74,9 +74,8 @@ st.altair_chart(chart, use_container_width=True)
 st.download_button("Download Filtered Data", data=filtered_data.to_csv(index=False), file_name="filtered_operations_data.csv")
 print(min_date, max_date)
 
-# Developed by
-st.markdown("<p style='text-align: center;'><br><br>Developed by godfried 2024</p>", unsafe_allow_html=True)
-
-
 # Go to dataset
 st.link_button("Go to dataset", "https://data.ny.gov/Transportation/MTA-Statement-of-Operations-Beginning-2019/yg77-3tkj/about_data")
+
+# Developed by
+st.markdown("<p style='text-align: center;'><br><br>Developed by godfried 2024</p>", unsafe_allow_html=True)
